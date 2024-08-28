@@ -12,6 +12,6 @@ function renderImages() {
     imgsDOM += `<img class="team-img" src="${imgs[i]}">`;
   }
   container.innerHTML = imgsDOM; ////not a costly operation as if innerHtml was used in for loop it would be rendering dom every tim that would effect the site rendering so best way is to make a variable and store the string in it
-}
+
 
 renderImages();
